@@ -1,6 +1,11 @@
 # Colorfolio landing page
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2. Created using Bootstrap 5.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2. 
+Created using Bootstrap 5.
+
+## Demo
+
+[Live Demo](https://colorfolio-landingpage.web.app/)
 
 ## Development server
 
