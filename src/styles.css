@@ -1,0 +1,122 @@
+
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+body { 
+    overflow-y:scroll 
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.1rem;;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+  }
+  
+a:hover  {
+    text-decoration: underline;
+}
+
+.hero-text {
+    font-size:24px
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 800px;
+}
+
+.main-text {
+    font-size: 18px;
+    color: rgb(61, 61, 61);
+}
+
+.container-main {
+    max-width: 1100px;
+}
+
+
+.section {
+    margin-top: 80px;
+    max-width: 750px;
+}
+
+.mt-md-2 {
+    margin-top: 0px;
+}
+
+.mt-md-4 {
+    margin-top: 0px;
+}
+
+@media (max-width: 768px) {
+    .mt-md-2 {
+        margin-top: 6px;
+    }
+    .mt-md-4 {
+        margin-top: 30px;
+    }
+}
+
+.newsletter-form {
+    max-width: 450px;
+}
+
+.min-content-width {
+    width: min-content;
+}
+
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+  }
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 12px;
+    /* margin: 2px; */
+    padding: 3px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #ffffff;
+
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #868686; 
+    border: 3px solid transparent;
+    background-clip: content-box;
+  }
+  /* Scrollbar Styling */
+
+  .btn {
+    border-radius: 0rem;
+  }
+  .form-control {
+    border-radius: 0rem;
+  }
+
+.navbar-compensation {
+      margin-top: 72px
+}
